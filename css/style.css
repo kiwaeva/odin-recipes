@@ -1,0 +1,28 @@
+
+  @layer presentation {
+   
+    article {
+      border: 1px solid #eaeaea;
+      padding: 1ch;
+    }
+    img {
+      inline-size: max(200px, 100%);
+    }
+  }
+    
+    body {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+      font-family: Merriweather, serif;
+      padding: 1ch;
+    }
+
+    h1 {
+        grid-column: 1 / span 8;
+    }
+
+    a {
+        text-decoration: none;
+
+    }
