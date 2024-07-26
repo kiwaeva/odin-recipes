@@ -1,5 +1,11 @@
 
-  @layer presentation {
+ *{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+ 
+ @layer presentation {
    
     article {
       border: 1px solid #eaeaea;
@@ -16,6 +22,7 @@
       grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
       font-family: Merriweather, serif;
       padding: 1ch;
+      
     }
 
     h1 {
@@ -26,7 +33,6 @@
         text-decoration: none;
         color: rgb(0, 0, 0);
         font-size: 18px;
-        font-weight:;
     }
     a:hover{
         font-size: 18.5px;
