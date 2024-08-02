@@ -1,0 +1,52 @@
+/* Style recipe with flexbox */
+
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+ body{
+    max-width: 60%;
+ }
+h1{
+    margin: 8px;
+}
+ .container{
+   display: flex;
+   gap: 40px;
+   margin: 8px;
+ }
+
+ .ingredients {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    width:300px;
+ }
+
+
+ .ingredients ul {
+    list-style-type: none;
+    font-size: medium;
+    padding: 0;
+    margin: 0;
+ }
+
+ .ingredients li{
+    padding: 8px 8px;
+    margin: 0 10px;
+ }
+
+ .ingredients h3{
+    align-self: center;
+    padding: 5px;
+    margin: 0;
+ }
+
+ .description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 70%;
+ }
